@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("food/kich1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+header{
+    position: fixed;
+    top: 0; left:0; right:0;
+    height: 90px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0.5rem 1rem rgba(0,0,0,.1);
+    background-color: black;
+    
+}
+
+header .navbar a{
+
+   font-size: 2rem;
+    margin-left: 1rem;
+    color:orange;
+    text-decoration: none;
+
+}
+header .navbar a:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+h1{
+    color:darkolivegreen;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    font-family: serif;
+}
+h2{
+   color:darkolivegreen;
+    text-align:-webkit- center;
+    padding: 20px;
+    font-style: italic;
+    font-family: serif;
+
+}
+.register{
+    margin-left: 400px;
+   
+}
+label{
+    color:blue ;
+    font-size: 23px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+#name{
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+input{
+    width: 200px; 
+    height: 30px;
+    font-size:large;
+}
+#sub{
+    text-align: center;
+
+    width: 150px;
+    padding: 7px;
+    font-size: 18px;
+    font-style: italic;
+    outline: 0;
+    border-radius: 3px;
+}
+span{
+    color: red;
+}
+footer{
+    background-color: rgb(34,34,34);
+    position:fixed;
+    color: white;
+    left: 10px;
+    bottom: 10px;
+}
+.footer_info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0;
+}
+ul,li{
+    list-style-type:none;
+}
+.footer_info .footer_width{
+    padding:0 15px;
+}
+.footer_info h2{
+    margin-bottom: 10px;
+}
+.about , .contact{
+    width:40%;
+}
+.link{
+    width:20;
+}
+
+

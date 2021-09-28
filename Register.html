@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BASIC TAG</title>
+         <meta charset="UTF-8">
+         <meta name="description" content="brief description about ur web page">
+         <meta name="keywords" content="important words">
+         <meta name="author" content="author name">
+         <meta name="viewport" content="width=device=width,initial-scale=1">
+         <link rel="stylesheet" href="style2.css" >
+     </head>
+         <body>
+            <header>
+                
+           <div id="menu-bar" class="fas"></div>
+            <nav class="navbar">
+                <a href="Homepage.html">HOME</a>
+                <a href="Menu.html">MENU</a>
+                <a href="Order.html">ORDER</a>
+                <a href="loginform.html">LOGIN</a>
+                <a href="Register.html">SIGNUP</a>
+            </nav>
+            </header>
+
+             <h1>New Account</h1>
+             <div class="register">
+                 <h2>Register here</h2>
+                 <form id="register" method="POST" action="Success1.html">
+                     <table>
+                        <tr><td><label>First Name:</label></td>
+                            <td><input type="text" id="fname" onblur="validate1()"></td></tr>
+                            <tr><td></td><td><span id="error1"></span></td></tr>
+
+                     <tr><td><label>Last Name:</label></td>
+                        <td><input type="text" id="lname" onblur="validate2()"></td></tr>
+                        <tr><td></td><td><span id="error2"></span></td></tr>
+                     
+                        <tr><td><label>Email:</label></td>
+                            <td><input type="email" id="email" onblur="validate4()"></td></tr>
+                            <tr><td></td><td><span id="error4"></span></td></tr>
+
+                            <tr><td><label>password:</label></td>
+                                <td><input type="password" id="pass" onblur="validate3()"></td></tr>
+                                <tr><td></td><td> <span id="error3"></span></td></tr>
+
+
+                     <tr><td><label>confirm password:</label></td>
+                        <td><input type="password" name="pass" id="c_pass" onblur="validate5()"></td></tr>
+                        <tr><td></td><td><span id="error5"></span></td></tr>
+
+                     
+                     <tr><td><label>Telephone number:</label></td>
+                         <td><input type="tele" id="mobileno" onblur="validate6()"></td></tr>
+                        <tr><td></td><td> <span id="error6"></span></td></tr>
+
+                    <tr><td><label>Address:</label></td>
+                        <td><textarea name="address" placeholder="type address....."></textarea></td></tr>
+                            
+                     
+                    <tr> <td colspan="2"><input type="submit" value="submit" id="sub"></td></tr>
+                     </table>
+                     </form>
+                     <footer>
+                        <div class="footer_info">
+                            <div class="footer_width about">
+                                <h2>About</h2>
+                                <p>The restaurant online ordering system help in notifying the right people at the right time. It is not just about flexibility; it’s about protecting the customer base by staying connected with them.</p>
+                                <p>The restaurant online ordering system help in notifying the right people at the right time. </p>
+                              </div>
+                              <div class="footer_width Contact">
+                                  <h2>Contact</h2>
+                                  <ul>
+                                      <li>
+                                        <p>23 cross street number 4A ,maleshwaram Banglore</p>
+                                      </li>
+                                      <li>
+                                          <a href="#">888 4611 982</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="social-media">
+                                  <ul>
+                                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                  </ul>
+                              </div>
+                        </div>
+                    </footer>
+                
+              
+
+
+                     <script src="java/regscript.js"></script>
+                     
+                </body>
+                </html>
+              
+        
+                
+                 

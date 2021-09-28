@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+:root{
+    --red:#ff3838;
+}
+
+*{                                   
+    font-family: 'Nunito',sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+*::selection{
+    background: var(--red);
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #666;
+}
+
+.btn{
+    display: inline-block;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--red);
+    color: var(--red);
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+}
+.btn::before{
+    content: '';
+
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+body{
+    background: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+section{
+    padding: 2rem 9%;
+}
+header{
+    position: fixed;
+    top: 0; left:0; right:0;
+    height: 90px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0.5rem 1rem rgba(0,0,0,.1);
+    background-color: black;
+    
+}
+
+header .navbar a{
+
+   font-size: 3rem;
+    margin-left: 1rem;
+    color:orange;
+    text-decoration: none;
+
+}
+header .navbar a:hover{
+    text-decoration: none;
+    color:red;
+
+}
+
+.home{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background: url(food/bg3.jpg) no-repeat ;
+    align-items: center;
+   
+    background-size: cover;
+ 
+}
+.home .content{
+    flex:1 1 40rem;
+padding-top: 6.5rem;
+
+}
+.image{
+    flex:1 1 40rem;
+    
+}
+ .image img{
+
+    width: 100%;
+    padding: 1rem;
+    height: 430px;
+    background-position-x: 200px;
+}
+.home .content h3{
+    font-size: 5rem;
+    color: #333;
+}
+.home .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.home .box-container .content{
+    flex:1 1 40rem;
+padding-top: 6.5rem;
+}
+.home .box-container .content h3{
+    font-size: 5rem;
+    color: #333;
+}
+.home .box-container.content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+footer{
+    background-color: rgb(34,34,34);
+    position: relative;
+    
+    color: white;
+}
+.footer_info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0;
+}
+ul,li{
+    list-style-type:none;
+}
+.footer_info .footer_width{
+    padding:0 15px;
+}
+.footer_info h2{
+    margin-bottom: 10px;
+}
+.about , .contact{
+    width:40%;
+}
+.link{
+    width:20;
+}

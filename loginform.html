@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BASIC TAG</title>
+         <meta charset="UTF-8">
+         <meta name="description" content="brief description about ur web page">
+         <meta name="keywords" content="important words">
+         <meta name="author" content="author name">
+         <meta name="viewport" content="width=device=width,initial-scale=1">
+         
+         
+         
+         <link rel="stylesheet" href="style1.css">
+        </head>
+        <header>
+          
+            
+       <div id="menu-bar" class="fas"></div>
+        <nav class="navbar">
+            <a href="Homepage.html">HOME</a>
+            <a href="Menu.html">MENU</a>
+            <a href="Order.html">ORDER</a>
+            <a href="loginform.html">LOGIN</a>
+            <a href="Register.html">SIGNUP</a>
+        </nav>
+        </header>
+      
+
+         <body>
+          <div class="center">
+                 <h1>LOGIN</h1>
+                 <form method="POST">
+                       <label>Username</label>
+                     <div class="txt_field">
+                        <input type="text" id="fname" onblur="validate1()">
+                      <span id="error1"></span>
+                         
+                    </div><br>
+
+                      <label>password</label>
+                     <div class="txt_field">
+                        <input type="password" id="pass" onblur="validate2()">
+                        <span id="error2"></span>
+                       
+                </div><br>
+                     
+                  <button><input type="submit" id="btn" value="LOGIN"></button>
+                    <div class="Register">
+                   new member? <a href="Register.html">Register</Register></a>
+                </div>
+
+                   
+                   
+                 </form>
+                 
+        
+             </div>
+             <label>show password</label><input type="checkbox" name="" id="check">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+             <script src="java/loginscript.js"></script>
+         </body>
+         </html>

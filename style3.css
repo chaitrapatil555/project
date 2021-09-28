@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position:fixed;
+    top: 0; left:0; right:0;
+    height: 70px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0.5rem 1rem rgba(0,0,0,.1);
+    background-color: black;
+    
+}
+
+header .navbar a{
+    text-decoration: none;
+   font-size: 2rem;
+    margin-left: 1rem;
+    color:orange;
+
+}
+header .navbar a:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+
+.heading{
+    text-align: center;
+    font-size:4.9rem;
+    padding: 1rem;
+    color: #666;
+
+}
+
+.speciality .single-menu .menu-content{
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,-1);
+    border: 1rem solid rgba(0,0,0,-1);
+    cursor: pointer;
+    border-radius: .5rem;
+    height: 10px;
+
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-menu{
+    flex-basis: 580px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.single-menu:nth-child(7), .single-menu:nth-child(8){
+    border-bottom: 0;
+}
+.single-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.single-menu:hover img{
+    border-radius: 0;
+}
+.single-menu img{
+    max-width: 180px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+.single-menu h3{
+    text-transform: capitalize;
+    font-size: 22px;
+    border-bottom: 1px dashed #333;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.single-menu h3 span{
+    float: right;
+    color: green;
+    font-style: italic;
+}
+.single-menu button{
+padding: 5px 30px;
+border:none;
+outline: none;
+background-color:green ;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.order .row{
+    padding: 2rem;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,-1);
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border-radius: .5rem;
+}
+.order .row .image{
+    flex: 1 1 30 rem;
+
+}
+.order .row .image img{
+height: 100%;
+width:100%;
+object-fit: cover;
+border-radius: .5rem;
+}
+.order .row form{
+    flex: 1 1 50 rem;
+    padding: 1rem;
+}
+.order .row form .inputBox{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.order .row form .inputBox input, .order .row form textarea{
+padding: 1rem;
+margin: 1rem 0;
+font-size:  1.7rem;
+color: #333;
+text-transform: none;
+border: .1rem solid rgba(0,0,0,.3);
+border-radius: .5rem;
+width: 49%;
+}
+.order .row form textarea{
+    width: 100%;
+    resize: none;
+    height: 15rem;
+}
+footer{
+    background-color: rgb(34,34,34);
+    position: relative;
+    color: white;
+}
+.footer_info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0;
+}
+ul,li{
+    list-style-type:none;
+}
+.footer_info .footer_width{
+    padding:0 15px;
+}
+.footer_info h2{
+    margin-bottom: 10px;
+}
+.about , .contact{
+    width:40%;
+}
+.link{
+    width:20;
+}
